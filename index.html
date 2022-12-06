@@ -12,11 +12,59 @@
         background-color: powderblue;
         color: red;
     }
-    hr{
+    hr{  
     height: 6%;
     border-style: dotted;
     }
+    #image{
+        margin-left:2px;
+        padding: auto;
+        
+    }
+    #abcd{
+        
+        border: 3px dashed rgb(140, 189, 128);
+        margin: 2px;
+        padding: 15px;
+        font-size: 20px;
+        font-style:oblique ;
+    }
+    #box{
+        border: 3px dashed rgb(140, 189, 128);
+        margin: 2px;
+        padding: 25px;
+        font-size: 20px;
+        font-style:oblique ;
+        float: left;
+        width: 50%;
+
+    }
+    #contact{
+        border: 2px dashed rgb(140, 189, 128);
+        float: left;
+        margin: 3px;
+        padding: 12px;
+    }
+    span{
+        font-weight: bold;
+    }
+    #downloadimage{
+     
+        border: 3px solid red;
+        border-top-left-radius: 30px;
+        border-radius: 30px;
+        height: 50px;
+        width: 50px;
+        padding: center;
+        background-color: burlywood;
+        background-image: url("downloadIcon.png");
+        background-size: 80px;
+        background-position: center center;
+        background-repeat: no-repeat;       
+    } 
+
 </style>
+
 
 <body>
     
@@ -25,16 +73,14 @@
     <table cellspacing="12">
         <tr>
             <td><img src="IMG_7203.JPG" width="300" height="200" alt="my profile image"></td>
-            <a href="IMG_7203.JPG" download="">download profile photo</a>
+            <p id="downloadimage"><a href="IMG_7203.JPG" download="profile"><span2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span2> </a></p>
+            
             <td>
                 <h1>Brijesh desai</h1>
-                <p>Hello ever one my name is Brijesh<br> I hope so you are enjoy this my frist website, for nature image us can also vist
-
-                <p> <a href="https://pixabay.com/images/search/nature/" target="_blank"> <strong><em>  This Website</em>
-                        </strong> </a>
-                </p>
+                <p id="abcd">Hello every one my name is Brijesh<br> I hope so you are enjoy this my frist website </p>
+                <p id="box">for <span> nature image </span>us can also vist <a href="https://pixabay.com/images/search/nature/" target="_blank"> <strong><em>  This Website</em></strong> </a></p>
                 <hr>
-                <p> <a href="my_contact.html" target="_blank"><strong><em>My contact details</details></em></strong></a></p>
+                <p id="contact"> <a href="my_contact.html" target="_blank"><strong><em>My contact details</details></em></strong></a></p>
                 <hr>
             </td>
         </tr>
@@ -88,11 +134,11 @@
             </tr>
         </tbody>
     </table>
-    <img src="https://images.unsplash.com/photo-1507119949454-53568edd075c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9" width="50%" height="40%"
-        alt="Random Image">
+    <p id="image"><img src="https://images.unsplash.com/photo-1507119949454-53568edd075c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9" width="50%" height="40%" alt="Random Image"></p>       
     <!-- <p>this is &#8203; </p> -->
     <br>
     <a href="02-08-2022.pdf" download=""> download old paper 02/08/2022 </a>
+    <br>
 
 
 </body>
